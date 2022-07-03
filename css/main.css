@@ -1,0 +1,97 @@
+.u-select-none{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.buttons-min-width{
+    min-width: 90px;
+}
+.datepicker table tr td.disabled{
+    color: #dc3545 !important;
+    background-color: #dee2e6 !important;
+    opacity: 0.3;
+}
+.input-daterange input{
+    background-color: white !important;
+}
+
+@media screen and (max-width:650px){
+    .resize{
+        width:100% !important;
+        margin-top:0 !important;
+        padding:1% !important;
+    }
+    .resize-login{
+        width:100% !important;
+        padding: 10px;
+    }
+    .resize #resultado-pesquisa{
+        top:116px !important;
+    }
+    .phone-padding{
+        padding:5%;
+    }
+    .show-mobile{
+        display:block;
+    }
+    .show-pc{
+    display:none;
+    }
+}
+@media screen and (max-width:1000px) and (min-width:650px){
+    .resize{
+        width:75% !important;
+    }
+    .phone-padding{
+        padding:0;
+    }
+    .show-mobile{
+        display:none;
+    }
+    .show-pc{
+        display:block;
+    }
+    .buttons-min-width{
+        min-width: 153px;
+    }
+}
+@media screen and (min-width:1000px){
+    .show-mobile{
+        display:none;
+    }
+    .show-pc{
+        display:block;
+    }
+    .buttons-min-width{
+        min-width: 153px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .card .card-body{
+        text-align: left;
+    }
+    .card .card-body div{
+        display:inline-block;
+        margin:0 !important;
+        margin-right: 2rem !important;
+    }
+    .card .card-body .card-title{
+        display:inline-block;
+    }
+    .card .card-body .btn {
+        float: right;
+        margin-top:1rem;
+    }
+}
