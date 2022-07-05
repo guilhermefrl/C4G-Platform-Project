@@ -1,4 +1,4 @@
-# C4G-Platform-Project
+# C4G Platform Project
 
 ## Objective
 
